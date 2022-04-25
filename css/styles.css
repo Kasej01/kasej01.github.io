@@ -11,6 +11,17 @@ h4{
   color: white;
 }
 
+.header{
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.page-container{
+  text-align: center;
+  padding: 15% 0;
+}
+
 /***************
 *    Navbar    *
 ***************/
@@ -161,22 +172,15 @@ h4{
   color: white;
 }
 
-.signup-header h1{
-  font-size: 4rem;
-  font-weight: 800;
-}
 
 .pdf-btn{
   margin-bottom: 3%;
 }
 
 .signup-container{
-  text-align: center;
   background-image: url("../images/about-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 15%;
-  padding-bottom: 15%;
 }
 
 .signup-form{
@@ -194,7 +198,7 @@ h4{
 
 .signup-row{
   margin: 0;
-  padding: 2%;
+  padding: 2%; 15%;
 }
 
 
@@ -202,6 +206,29 @@ h4{
    font-size: 1.2rem;
 }
 
+/***********************************************************
+*               Frequently Asked Questions                 *
+***********************************************************/
+
+.page-container{
+  background-color: grey;
+}
+
+.accordian{
+  padding: 0 12%;
+}
+
+.button-text{
+  font-size: 1.4rem;
+}
+
+.answer-text{
+  font-size: 1.2rem;
+}
+
+.more-questions{
+  margin: 3% 0;
+}
 
 
 /**********************
@@ -230,6 +257,10 @@ h4{
   .slide-img{
     height: 60vh;
     object-fit: cover;
+  }
+
+  .page-container{
+    padding: 35% 0;
   }
 
   .carousel-button{

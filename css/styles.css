@@ -168,10 +168,6 @@ h4{
 *                      Signup Page                         *
 ***********************************************************/
 
-.signup-header{
-  color: white;
-}
-
 
 .pdf-btn{
   margin-bottom: 3%;
@@ -181,6 +177,7 @@ h4{
   background-image: url("../images/about-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .signup-form{
@@ -192,8 +189,8 @@ h4{
   margin: auto;
 }
 
-.signup-head{
-  text-align: center;
+.signup-header{
+  color: white;
 }
 
 .signup-row{
@@ -210,7 +207,7 @@ h4{
 *               Frequently Asked Questions                 *
 ***********************************************************/
 
-.page-container{
+.faq-container{
   position: relative;
   z-index: -1;
   background-color: grey;

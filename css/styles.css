@@ -27,6 +27,7 @@ h4{
 ***************/
 .navbar{
    position: absolute;
+    z-index: 1;
    top: 0;
    width: 100%;
    background: rgba(0,0,0,0.8);
@@ -209,7 +210,7 @@ h4{
 
 .faq-container{
   position: relative;
-  z-index: -1;
+  z-index: 0;
   background-color: grey;
 }
 

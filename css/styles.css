@@ -1,0 +1,254 @@
+
+body{
+    font-family: 'Akshar', sans-serif;
+}
+
+h2{
+  font-size: 2.7rem;
+}
+
+h4{
+  color: white;
+}
+
+/***************
+*    Navbar    *
+***************/
+.navbar{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   background: rgba(0,0,0,0.8);
+   padding: 2.5rem 0;
+}
+
+.navbar-brand{
+  margin-left: 2%;
+  color: white;
+}
+
+.nav-img{
+  height: 3rem;
+  object-fit: contain;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-toggler{
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .signup-link{
+  width: 120px;
+  color: #a0111d;
+  transform: skew(160deg);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-item .signup-link:hover{
+  transform: skew(160deg);
+  border-right-color: white;
+  border-right-style: solid;
+  border-right-weight: 3px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-weight: 3px;
+  color: #700b14;
+}
+
+/***************
+*    Footer    *
+***************/
+
+.footer-container{
+  background-color: black;
+  color: grey;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+
+.col-md-4 h4{
+  text-decoration: underline;
+}
+
+.about{
+  text-align: left;
+}
+
+.credits{
+  text-align: center;
+  margin: 0;
+}
+
+.socials{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: grey;
+  text-decoration: none;
+}
+
+/*********************************************************
+*                      Home Page                         *
+*********************************************************/
+
+/******************
+*    Slideshow    *
+******************/
+.slide-img{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-button{
+  height: 50%;
+  margin: auto;
+}
+
+/**************
+*    Intro    *
+**************/
+
+
+.intro{
+  text-align: center;
+  line-height: 1.5;
+}
+
+.row{
+    padding: 4% 20% 4%;
+    margin: 0;
+}
+
+.row-1, .row-3{
+  background-color: #a0111d;
+  color: white;
+}
+
+.row-2{
+  background-color: black;
+  margin-top: 0;
+  color: white;
+}
+.intro-text{
+  font-size: 2rem;
+}
+
+/*****************
+*    Favicons    *
+*****************/
+
+.intro-icons{
+  color: black;
+}
+.location{
+  color: #004481;
+}
+
+
+
+/***********************************************************
+*                      Signup Page                         *
+***********************************************************/
+
+.signup-header{
+  color: white;
+}
+
+.signup-header h1{
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.pdf-btn{
+  margin-bottom: 3%;
+}
+
+.signup-container{
+  text-align: center;
+  background-image: url("../images/about-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.signup-form{
+  width: 30%;
+  border-radius: 2rem;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  margin: auto;
+}
+
+.signup-head{
+  text-align: center;
+}
+
+.signup-row{
+  margin: 0;
+  padding: 2%;
+}
+
+
+.signup-label{
+   font-size: 1.2rem;
+}
+
+
+
+/**********************
+*    Media Queries    *
+**********************/
+@media (max-width: 990px){
+  /* Navbar */
+  .nav-img{
+    width: 30vw;
+    height: 10vh;
+  }
+
+  .nav-link{
+    font-size: 2.2rem;
+  }
+
+  .navbar-toggler-icon{
+    width: 6vw;
+    height: 6vw;
+  }
+  .navbar-nav .nav-item .signup-link:hover{
+    border: none;
+  }
+
+  /* Slideshow */
+  .slide-img{
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .carousel-button{
+    display: none;
+  }
+
+/* Signup */
+.signup-container{
+  padding-top: 35%;
+}
+
+/* Footer */
+  .footer-row{
+    padding: 4% 5% 4%;
+  }
+}
+
+@media (max-width: 1250px){
+  .signup-form{
+    width: 45%;
+  }
+}
